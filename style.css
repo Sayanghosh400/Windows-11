@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
+  background-color: lightblue;
+}
+
+.vid{
+  padding-left: 15vw;
+  height: 45vw;
+}
+
+.startmenu {
+  position: absolute;
+  bottom: -650px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s ease-in;
+}
+
+.startmenu img {
+  border-radius: 10px;
+}
+
+.taskbar {
+  background-color:whitesmoke;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  z-index: 100;
+}
+
+.right {
+  position: absolute;
+  right: 0;
+  margin: 4px 0;
+  height: 90%;
+}
+
+.ctrlcenter {
+  position: absolute;
+  bottom: -650px;
+  right: 20px;
+  text-align: center;
+  transition: all 0.3s ease-in;
+}
+
+.ctrlcenter img {
+  border-radius: 10px;
+}
+
+.icons {
+  position: absolute;
+  left: 5;
+  padding: 5px;
+  margin: 5px;
+}
+
+.edge {
+  padding: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .all {
+    display: none !important;
+  }
+
+  .textformobile {
+    text-align: center;
+    font-size: 50px;
+    color: #333;
+    /* Add any other styles as needed */
+    display: block !important;
+  }
+}
